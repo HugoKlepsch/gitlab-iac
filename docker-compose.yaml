@@ -2,7 +2,11 @@ version: '3.6'
 services:
   web:
     # Calculate your upgrade path here: https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/
-    image: 'gitlab/gitlab-ee:17.5.5-ee.0'
+    # image: 'gitlab/gitlab-ee:17.5.5-ee.0'
+    # image: 'gitlab/gitlab-ee:17.8.7-ee.0'
+    # image: 'gitlab/gitlab-ee:17.11.7-ee.0'
+    # image: 'gitlab/gitlab-ee:18.2.8-ee.0'
+    image: 'gitlab/gitlab-ee:18.5.2-ee.0'
     restart: always
     hostname: 'gitlab.hugo-klepsch.tech'
     environment:
